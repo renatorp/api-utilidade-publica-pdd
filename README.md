@@ -5,30 +5,41 @@
 *   http://api-utilidade-publica-pdd.azurewebsites.net/api/v1.0/
 
 ## Subresources
-`
-``
-*   [Add a Controller and View](https://go.microsoft.com/fwlink/?LinkID=398600)
-*   [Add an appsetting in config and access it in app.](https://go.microsoft.com/fwlink/?LinkID=699562)
-*   [Manage User Secrets using Secret Manager.](https://go.microsoft.com/fwlink/?LinkId=699315)
-*   [Use logging to log a message.](https://go.microsoft.com/fwlink/?LinkId=699316)
-*   [Add packages using NuGet.](https://go.microsoft.com/fwlink/?LinkId=699317)
-*   [Add client packages using Bower.](https://go.microsoft.com/fwlink/?LinkId=699318)
-*   [Target development, staging or production environment.](https://go.microsoft.com/fwlink/?LinkId=699319)
+#### Consulta de IPTU
+`GET imoveis/1/iptu`
 
-## Overview
+#### Consulta de Coleta de Lixo 
+`GET logradouros/{id}/solicitacoes/coletaslixo`
 
-*   [Conceptual overview of what is ASP.NET Core](https://go.microsoft.com/fwlink/?LinkId=518008)
-*   [Fundamentals of ASP.NET Core such as Startup and middleware.](https://go.microsoft.com/fwlink/?LinkId=699320)
-*   [Working with Data](https://go.microsoft.com/fwlink/?LinkId=398602)
-*   [Security](https://go.microsoft.com/fwlink/?LinkId=398603)
-*   [Client side development](https://go.microsoft.com/fwlink/?LinkID=699321)
-*   [Develop on different platforms](https://go.microsoft.com/fwlink/?LinkID=699322)
-*   [Read more on the documentation site](https://go.microsoft.com/fwlink/?LinkID=699323)
+####  Solicitação de Poda de Árvore
+`PUT logradouros/{id}/solicitacoes/podaArvore`
 
-## Run & Deploy
+#### Solicitação de Construção de Meio-Fio
+`PUT logradouros/{id}/solicitacoes/meiofio`
 
-*   [Run your app](https://go.microsoft.com/fwlink/?LinkID=517851)
-*   [Run tools such as EF migrations and more](https://go.microsoft.com/fwlink/?LinkID=517853)
-*   [Publish to Microsoft Azure Web Apps](https://go.microsoft.com/fwlink/?LinkID=398609)
+#### Solicitação de Recolhimento de Carros Abandonados 
+`PUT logradouros/{id}/solicitacoes/recolhimentocarrosabandonados`
 
-We would love to hear your [feedback](https://go.microsoft.com/fwlink/?LinkId=518015)
+####  Solicitação de Desobstrução de Vias Públicas
+`PUT logradouros/{id}/solicitacoes/desobstrucaoviapublica`
+
+####  Solicitação de Desobstrução de Córregos
+``PUT logradouros/{id}/solicitacoes/desobstrucaocorregos``
+
+####  Solicitação de Coleta de Animal Morto
+`PUT logradouros/{id}/solicitacoes/coletaanimalmorto`
+
+####  Solicitação de Limpeza de Boca de Lobo
+`PUT logradouros/{id}/solicitacoes/limpezabocalobo`
+
+####  Consulta de Histórico de Aluno de Rede Pública
+`GET alunos/{codaluno}/historico`
+
+#### Pedido de adoção de cães 
+`POST pedidos/adocaocao`
+
+#### Pedido de adoção de gatos
+`POST pedidos/adocaogato`
+
+#### Consulta de pedidos
+`GET pedidos/{id}`
