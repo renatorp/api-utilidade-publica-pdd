@@ -1,17 +1,12 @@
-# Welcome to ASP.NET Core
+# API de serviços para um cenário de uma transformação digital de um prefeitura
 
-We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
+## Base URL:
 
-You've created a new ASP.NET Core project. [Learn what's new](https://go.microsoft.com/fwlink/?LinkId=518016)
+*   http://api-utilidade-publica-pdd.azurewebsites.net/api/v1.0/
 
-## This application consists of:
-
-*   Sample pages using ASP.NET Core MVC
-*   [Gulp](https://go.microsoft.com/fwlink/?LinkId=518007) and [Bower](https://go.microsoft.com/fwlink/?LinkId=518004) for managing client-side libraries
-*   Theming using [Bootstrap](https://go.microsoft.com/fwlink/?LinkID=398939)
-
-## How to
-
+## Subresources
+`
+``
 *   [Add a Controller and View](https://go.microsoft.com/fwlink/?LinkID=398600)
 *   [Add an appsetting in config and access it in app.](https://go.microsoft.com/fwlink/?LinkID=699562)
 *   [Manage User Secrets using Secret Manager.](https://go.microsoft.com/fwlink/?LinkId=699315)
